@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="TBD" />
+    <title>warehouse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" type="module"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="container">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/add-item">Add Item</a>
+        </li>
+      </ul>
+      <ul>
+        <fieldset class="theme-toggle">
+          <label>
+            <input
+              name="theme-toggle"
+              type="checkbox"
+              role="switch"
+              id="theme-toggle"
+            />
+            🌙
+          </label>
+        </fieldset>
+      </ul>
+    </nav>
+    <header class="container">
+      <hgroup>
+        <h1>warehouse</h1>
+        <p>manage item in inventory</p>
+      </hgroup>
+    </header>
+    <main class="container" id="app"></main>
+    <footer class="container neog-footer">
+      <small>
+        go from zero to hero at full stack development with
+        <a href="https://neog.camp">neog.camp</a>
+      </small>
+    </footer>
+  </body>
+</html>

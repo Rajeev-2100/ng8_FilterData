@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  max-width: 768px;
+  margin: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+.theme-toggle {
+  padding-top: 1.5rem;
+}
+
+.neog-footer {
+  text-align: center;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.low-stock {
+  color: yellow;
+}
