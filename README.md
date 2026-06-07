@@ -62,6 +62,9 @@ View all items
 
 
 > ✅ Just make sure to **create a `screenshots/` folder** in your project directory and add:
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/19ee0631-6070-4e1d-94f6-22d0ee8e1af0" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cd44b368-09a2-4250-8146-6496670b4f65" />
+
 
 >
  - home-page.png
